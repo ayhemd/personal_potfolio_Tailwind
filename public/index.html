@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white py-4 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <h1 class="text-3xl font-bold">About me</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+            <li>
+              <a href="#projects" class="hover:text-gray-200">Projects</a>
+            </li>
+            <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </head>
+
+  <!-- Hero Section -->
+  <section
+    id="home"
+    class="bg-cover bg-center h-screen"
+    style="background-image: url('your-background-image.jpg')"
+  >
+    <div
+      class="flex flex-col justify-center items-center h-full bg-black bg-opacity-50"
+    >
+      <h2 class="text-white text-5xl font-bold mb-4 text-center">
+        Welcome, I'm Ayhem
+      </h2>
+      <p class="text-white text-xl text-center">
+        I am a engineer, passionate about building solutions that make an
+        impact.
+      </p>
+    </div>
+  </section>
+
+  <body>
+   
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-8">Skills</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div class="p-6 bg-white shadow-lg rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">Fluency in English</h4>
+            <p class="text-gray-600">
+              I am proficient in English, holding a C2 level, which is
+              near-native fluency. This enables me to communicate effectively in
+              both written and spoken forms, facilitating clear, professional
+              exchanges with colleagues, clients, and stakeholders in
+              international settings.
+            </p>
+          </div>
+          <div class="p-6 bg-white shadow-lg rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">Teamwork</h4>
+            <p class="text-gray-600">
+              I excel in collaborative environments, actively contributing to
+              team goals by communicating openly, supporting colleagues, and
+              adapting to diverse work styles. My ability to work harmoniously
+              with others enhances productivity and fosters a positive,
+              cooperative atmosphere.
+            </p>
+          </div>
+          <div class="p-6 bg-white shadow-lg rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">Flexibility</h4>
+            <p class="text-gray-600">
+              I am highly adaptable, able to adjust to shifting
+              priorities and dynamic work environments. My flexibility allows
+              you to efficiently handle unexpected changes, meet deadlines under
+              pressure, and take on new responsibilities when needed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- Contact Form Section -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-8">Contact Me</h3>
+      <form action="#" method="POST" class="max-w-lg mx-auto bg-white p-8 shadow-lg rounded-lg">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+          <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500">Send</button>
+      </form>
+    </div>
+  </section>
+
+     <!-- Footer Section -->
+  <footer class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <p class="text-sm">© 2024. All rights reserved.</p>
+      <div class="flex space-x-4">
+        <!-- Social Media Icons -->
+        <a href="#" class="hover:text-gray-200">Facebook</a>
+        <a href="#" class="hover:text-gray-200">Twitter</a>
+        <a href="https://www.linkedin.com/in/ayhem-dahmani-3a1943209/" class="hover:text-gray-200">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+
+  </body>
+</html>
